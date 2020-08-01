@@ -1,0 +1,2 @@
+Your install message goes here. Package Control will show this message 
+when you install the package for the first time. 
