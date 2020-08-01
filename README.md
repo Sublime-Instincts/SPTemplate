@@ -1,11 +1,10 @@
-SPTemplate (A template for creating ST3 packages)
-=================================================
+# SPTemplate
 
-An opinionated template for Sublime Text 3 Package development.
+![LICENSE](https://img.shields.io/badge/LICENSE-MIT-green?style=for-the-badge)
 
--------------------------------------------------------------------------------
+An opinionated template for Sublime Text Package development.
 
-## Directory structure ##
+## Directory structure
 
 ```bash
 ├── .github/
@@ -41,15 +40,11 @@ An opinionated template for Sublime Text 3 Package development.
 └── sp_template.py
 ```
 
--------------------------------------------------------------------------------
-
-## Usage ##
+## Usage
 
 Clone the repository into the ```Packages``` folder of Sublime Text 3 by going to ```Preferences -> Browse Packages ...```. Give a suitable name to the project, the root ```sp_template.py``` file as well as the resource files.
 
--------------------------------------------------------------------------------
-
-## License ##
+## License
 
 Copyright 2019 © Ashwin Shenoy
 
