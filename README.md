@@ -7,37 +7,47 @@ An opinionated template for Sublime Text Package development.
 ## Directory structure
 
 ```bash
-├── .github/
-│ 	├──	CONTRIBUTING.md
-│ 	├── ISSUE_TEMPLATE.md
-│   └── PULL_REQUEST_TEMPLATE.md
-├── docs/ 							
-├── lib/							
-│	└── __init__.py				
-├── messages/						
-│	└── install.txt
-├── resources/
-│	├──	commands/
-│	│	└── SPTemplate.sublime-commands
-│ 	├── keymaps/
-│	│	├──	Default (Linux).sublime-keymap
-│ 	│	├── Default (OSX).sublime-keymap
-│   │	└── Default (Windows).sublime-keymap
-│	├── menus/
-│	├── settings/
-│	│	└── SPTemplate.sublime-settings
-│   └── syntax/
-├── src/
-│	└── __init__.py	
-├── tests/
-│	└── __init__.py					
-├── .gitattributes
-├── .gitignore
-├── CHANGELOG.md
-├── dependencies.json
-├── messages.json
-├── README.md
-└── sp_template.py
+│   .gitattributes
+│   .gitignore
+│   CHANGELOG.md
+│   dependencies.json
+│   LICENSE.md
+│   messages.json
+│   README.md
+│   sp_template.py
+│
+├───.github
+│       CONTRIBUTING.md
+│       ISSUE_TEMPLATE.md
+│       PULL_REQUEST_TEMPLATE.md
+│
+├───lib
+│       __init__.py
+│
+├───messages
+│       install.txt
+│
+├───resources
+│   ├───commands
+│   │       SPTemplate.sublime-commands
+│   │
+│   ├───keymaps
+│   │       Default (Linux).sublime-keymap
+│   │       Default (OSX).sublime-keymap
+│   │       Default (Windows).sublime-keymap
+│   │
+│   ├───menus
+│   ├───settings
+│   │       SPTemplate.sublime-settings
+│   │
+│   └───syntax
+│       └───tests
+├───src
+│       __init__.py
+│
+└───tests
+        __init__.py
+
 ```
 
 ## Usage
